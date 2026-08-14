@@ -1,0 +1,74 @@
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <!-- Logo -->
+
+        <a routerLink="/" class="logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+            </div>
+
+            <div class="logo-text">
+
+                <h2>PrimeVest</h2>
+
+                <span>Finance</span>
+
+            </div>
+
+        </a>
+        <!-- Hamburger -->
+
+<div class="hamburger" (click)="toggleMenu()">
+
+    <i
+        class="fa-solid"
+        [class.fa-bars]="!menuOpen"
+        [class.fa-xmark]="menuOpen">
+    </i>
+
+</div>
+
+        <!-- Navigation -->
+
+       <nav class="nav-menu" [class.active]="menuOpen">
+
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                Home
+            </a>
+
+            <a routerLink="/about" routerLinkActive="active">
+                About
+            </a>
+
+            <a routerLink="/services" routerLinkActive="active">
+                Services
+            </a>
+
+            <a routerLink="/blog" routerLinkActive="active">
+                Blog
+            </a>
+
+            <a routerLink="/contact" routerLinkActive="active">
+                Contact
+            </a>
+
+        </nav>
+
+        <!-- CTA -->
+
+        <a routerLink="/contact" class="header-btn">
+
+            <span>Get Started</span>
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</header>

@@ -1,0 +1,39 @@
+.back-to-top{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:58px;
+
+    height:58px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:linear-gradient(135deg,#0B1F3A,#1FA67A);
+
+    color:white;
+
+    font-size:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+    z-index:9999;
+
+    transition:.35s;
+
+}
+
+.back-to-top:hover{
+
+    transform:translateY(-6px) scale(1.08);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
