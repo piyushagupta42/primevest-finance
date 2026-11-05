@@ -1,59 +1,114 @@
-# PrimevestFinance
+# PrimeVest Finance
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.
+A modern, responsive finance website built with Angular, TypeScript, HTML and SCSS. PrimeVest Finance presents financial services through a professional interface designed to provide visitors with a clear and accessible browsing experience.
 
-## Development server
+## Overview
 
-To start a local development server, run:
+PrimeVest Finance is a frontend website concept for a financial services company. It features a clean layout, modern styling and dedicated pages for exploring the company, its services, financial insights and contact information.
 
-```bash
-ng serve
+## Pages
+
+* **Home** – Introduction to the finance platform.
+* **About** – Company overview and information.
+* **Services** – Presentation of financial services.
+* **Blog** – Financial articles and insights.
+* **Contact** – Contact information and enquiry interface.
+
+## Technology Stack
+
+* Angular 21
+* TypeScript
+* HTML5
+* SCSS
+* Font Awesome 7
+* npm
+
+## Project Structure
+
+```text
+primevest-finance/
+├── public/
+├── src/
+│   ├── app/
+│   │   └── pages/
+│   │       ├── home/
+│   │       ├── about/
+│   │       ├── services/
+│   │       ├── blog/
+│   │       └── contact/
+│   ├── assets/
+│   ├── styles.scss
+│   └── main.ts
+├── angular.json
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Getting Started
 
-## Code scaffolding
+### Prerequisites
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* Node.js
+* npm
+* Angular CLI (optional, if using the local npm scripts)
 
-```bash
-ng generate component component-name
-```
+### Installation
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Clone the repository:
 
 ```bash
-ng build
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Navigate to the project directory:
 
 ```bash
-ng test
+cd primevest-finance
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Install dependencies:
 
 ```bash
-ng e2e
+npm install
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Run Locally
 
-## Additional Resources
+```bash
+npm start
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Open your browser at:
+
+```text
+http://localhost:4200/
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+The production build is generated inside:
+
+```text
+dist/primevest-finance/
+```
+
+## Deployment
+
+The project is intended to be deployed using Vercel.
+
+**Live Website:** Add your Vercel deployment URL here.
+
+## Project Status
+
+Frontend development completed. Backend integration is not included in the current version.
+
+## Author
+
+**Prince Burnwal**
+
+GitHub: Add your GitHub profile URL here.
